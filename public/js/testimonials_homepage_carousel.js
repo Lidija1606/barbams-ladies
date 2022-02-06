@@ -1,0 +1,1 @@
+$("#testimonials-slider-button-left").bind("click",function(){const l=$("#testimonials-slider-gallery"),t=l.width(),i=l.scrollLeft();0===i?l.scrollLeft(2e4):l.scrollLeft(i-t)}),$("#testimonials-slider-button-right").bind("click",function(){const l=$("#testimonials-slider-gallery"),t=l.width(),i=l.scrollLeft();l.scrollLeft(i+t),i>=l.scrollLeft()&&l.scrollLeft(0)});

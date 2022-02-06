@@ -1,0 +1,19 @@
+{
+  "env": {},
+  "ignore": [],
+  "plugins": [
+    [
+      "@babel/plugin-syntax-dynamic-import",
+      {
+        "loose": true
+      }
+    ],
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": true
+      }
+    ]
+  ],
+  "presets": []
+}

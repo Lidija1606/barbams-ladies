@@ -1,0 +1,255 @@
+/* Beard Elixir Page */
+
+.elixir-page-bkg img {
+  width: 100%;
+  height: auto;
+}
+
+.elix{
+  margin-top: 10px!important;
+}
+
+.elixir-page-results h1{
+  margin: 5px 0 0 0;
+  @media only screen and (max-width: 580px) {
+    margin: 8% 0 0 0!important;
+  }
+}
+
+.mobile-bkg {
+  display: none;
+}
+
+.elixir-page-price {
+  // margin: 2.5rem 0;
+  margin: 0;
+}
+.elixir-page-price {
+
+  .old-elixir-price span{
+    position: relative;
+  }
+
+  h3.old-elixir-price span::after {
+    display: block;
+    content: "";
+    position: absolute;
+    right: 0%;
+    top: 10px;
+    width: 100%;
+    height: 3px;
+    background: #ff0000;
+    -webkit-transform: rotateZ(156deg);
+    transform: rotateZ(169deg);
+  }
+}
+
+.elixir-page-price h3 {
+  margin: 0.3rem 0;
+}
+
+.elixir-page-text a.nav-order-button {
+  height: 30px;
+  display: inline-block;
+  line-height: 2.5;
+  padding: 0;
+  margin-top: 0.3rem;
+  font-family: "Gotham Bold";
+  text-transform: uppercase;
+  color: black;
+  font-size: 80%;
+  border: 2px solid #f3cc6d;
+  border-radius: 7px;
+  width: 100px;
+  @media screen and (max-width: 768px) {
+    margin-top: 6px;
+    width: 100%;
+  }
+  background: #f3cc6d !important;
+}
+
+.elixir-page-text a.nav-order-button:hover {
+  background: #fff !important;
+}
+
+
+.elixir-page-results {
+  position: relative;
+}
+
+.elixir-page-results .bx-controls.bx-has-controls-direction {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+}
+
+.elixir-page-results .bx-controls-direction {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+}
+
+.elixir-page-results .bx-wrapper .bx-controls-direction a {
+  position: initial;
+  margin-top: 0;
+  line-height: 0;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  width: 100px;
+  height: 22px;
+  font-weight: 900;
+}
+
+.elixir-page-results .bx-wrapper .bx-prev {
+  background-image: url(/img/prev.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 15px;
+}
+
+.elixir-page-results .bx-wrapper .bx-next {
+  background-image: url(/img/next.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+.elixir-page-results .bx-wrapper .bx-controls-direction a:hover {
+  background-color: #fff;
+  opacity: 0.7;
+}
+
+.elixir-page-results .bx-wrapper .bx-next:hover {
+  background-image: url(/img/next-black.svg);
+}
+
+.elixir-page-results .bx-wrapper .bx-prev:hover {
+  background-image: url(/img/prev-black.svg);
+}
+
+.elixir-page-results .bx-wrapper {
+  max-width: 1200px !important;
+  margin-top: 30px;
+  margin-bottom: 41px;
+}
+
+.elixir-page-results .bx-wrapper:nth-child(3) {
+  display: none;
+}
+
+.elixir-page-video {
+  margin-top: 22px;
+}
+
+.elixir-page-video iframe {
+  height: 600px;
+}
+
+.elixir-page-logo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.elixir-page-logo a img {
+  width: 320px;
+}
+
+.elixir-page p{
+  line-height: 1.5!important;
+}
+.elixir-page-use h1{
+  line-height: 1.1!important;
+}
+.elixir-page-use {
+  p:first-of-type{
+    margin-top: 25px!important;
+  }
+}
+
+.elixir-page-results .see-more{
+  width: 216px;
+}
+
+
+@media(max-width:768px) {
+  .elixir-page-results .bx-wrapper:nth-child(4),
+  .desktop-bkg {
+    display: none;
+  }
+
+  .elixir-page-results .bx-wrapper:nth-child(3),
+  .mobile-bkg {
+    display: block;
+  }
+
+  .elixir-page {
+    margin-top: -3% !important;
+  }
+
+  .result-slider-item a {
+    padding: 0 5px 0;
+  }
+
+  .elixir-page-video iframe {
+    height: auto;
+  }
+
+  .elixir-page-logo a {
+    margin: 0 0 10px;
+  }
+
+  .elixir-page-results .bx-wrapper .bx-controls-direction a:hover {
+    background-color: initial;
+    opacity: 1;
+  }
+
+  .elixir-page-results .bx-wrapper .bx-next:hover {
+    background-image: url(/img/next.svg);
+  }
+
+  .elixir-page-results .bx-wrapper .bx-prev:hover {
+    background-image: url(/img/prev.svg);
+  }
+  .no-top-margin-17 {
+    margin-top: -17%;
+  }
+
+}
+@media(max-width: 450px) {
+
+  .elixir-page-logo a img {
+    width: 100%;
+  }
+  .elixir-page-results .bx-wrapper img{
+    max-width: 90%;
+  }
+  .elixir-page-results #results-gallery-mobile{
+    text-align: -webkit-center;
+  }
+}
+
+.elixir-certificates a img{
+
+  @media only screen and (max-width: 580px) {
+    width: 45%;
+  }
+
+}
+.elixir-page-video{
+  @media(min-width:768px) {
+    video {
+      max-height: 500px;
+      width: auto;
+    }
+  }
+}
+.elixir-page-results{
+  margin-bottom: 12%!important;
+}

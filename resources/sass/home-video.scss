@@ -1,0 +1,30 @@
+.home-page-video,
+.home-page-video-description {
+    max-width: 1200px;
+    position: relative;
+    margin: 25px auto;
+    padding: 0 15px;
+}
+
+.home-page-video {
+    .desktop-video {
+        display: none;
+    }
+    .mobile-video {
+        display: block;
+    }
+}
+
+@media(min-width:768px) {
+    .home-page-video,
+    .home-page-video-description {
+        margin: 65px auto;
+        padding: 0 48px;
+        .desktop-video {
+            display: block;
+        }
+        .mobile-video {
+            display: none;
+        }
+    }
+}

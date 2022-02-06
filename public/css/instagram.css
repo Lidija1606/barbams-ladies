@@ -1,0 +1,18 @@
+#order-heading{
+    display: none;
+}
+
+.about-no-content{
+ min-height: 1200px;
+}
+
+#hamburger{
+    height: 40px;
+}
+.payment-details{
+    font-size: 1.5em;
+}
+
+p.left.gotham-bold.margin-0{
+    line-height: normal;
+}
